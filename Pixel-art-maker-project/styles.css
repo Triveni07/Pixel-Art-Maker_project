@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    font-family: Georgia, serif, /* COMBAK:  */;
+    font-weight: bold;
+    color: #006664;
+}
+
+h1 {
+    font-size: 70px;
+    margin: 0.2em;
+    padding-top: 0.5em;
+    text-shadow: -1px -1px 1px #aaa,
+             0px 4px 1px rgba(0,0,0,0.5),
+             4px 4px 5px rgba(0,0,0,0.7),
+             0px 0px 7px rgba(0,0,0,0.4);
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid  #006664;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number]{
+    width: 6em;
+}
+html {
+    background-image: url("http://www.zingerbug.com/Backgrounds/background_images/brown_canvas_seamless.jpg");
+}
+
+#submit_button {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    font-weight: bold;
+    color:  #006664;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    margin-left: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
